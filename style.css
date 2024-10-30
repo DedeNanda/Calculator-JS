@@ -1,0 +1,74 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+  /* background-color: #507687; */
+  background-image: url("https://img.freepik.com/free-photo/shimmering-stars-watercolor-grid_53876-94588.jpg?t=st=1730296151~exp=1730299751~hmac=a9210474b7c4cd49dd2ec66e1afceb0076b94275c9ec1d1c62bc473c1506a816&w=826");
+  background-size: cover;
+  background-position: center;
+  margin: auto;
+  padding: auto;
+}
+
+h1 {
+  text-align: center;
+  text-shadow: 2px 2px 4px #7ab2d3;
+  font-size: 40px;
+  color: #de7c7d;
+  background-color: transparent;
+  margin: auto;
+  margin-bottom: 35px;
+  width: auto;
+  height: auto;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.calculator {
+  background-color: #0b192c;
+  padding: 30px;
+  border-radius: 20px;
+  width: 250px;
+}
+
+#display {
+  width: 90%;
+  font-size: 30px;
+  padding: 10px;
+  margin-bottom: 20px;
+  text-align: center;
+  border: solid black;
+  color: white;
+  background-color: #424242;
+  border-radius: 5px;
+}
+
+button {
+  width: auto;
+  padding: 10px;
+  text-align: center;
+  font-size: 30px;
+  background-color: #444;
+  color: white;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+.bagian {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 10px;
+  margin-top: 10px;
+}
+
+button:hover {
+  background-color: #555;
+}
+
+button.zero {
+  grid-column: span 2;
+}
